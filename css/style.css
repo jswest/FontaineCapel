@@ -1,0 +1,130 @@
+* {
+  border: 0;
+  color: inherit;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+div {
+  display: block;
+  position: relative; }
+
+#controls-wrapper {
+  width: 800px; }
+
+#nav-and-header-control {
+  background-color: rgba(50, 15, 0, 0.75);
+  cursor: pointer;
+  margin-left: -50px;
+  position: fixed;
+  top: 600px;
+  left: 50%;
+  z-index: 2;
+  width: 100px;
+  height: 100px; }
+
+#nav-and-header {
+  background-color: rgba(50, 15, 0, 0.75);
+  display: none;
+  margin-left: -400px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 50%;
+  width: 800px;
+  height: 600px; }
+  #nav-and-header header#primary-header {
+    position: absolute;
+    top: 0;
+    width: 800px;
+    height: 600px; }
+    #nav-and-header header#primary-header h1 {
+      color: white;
+      font-family: "Fontaine Capel JW";
+      font-size: 100px;
+      font-weight: 400;
+      line-height: 100px;
+      margin-top: 200px;
+      text-align: center;
+      text-transform: uppercase;
+      height: 200px; }
+  #nav-and-header nav {
+    position: absolute;
+    top: 50px;
+    width: 800px; }
+    #nav-and-header nav ul li.current {
+      border-top: 1px solid white; }
+    #nav-and-header nav ul li {
+      color: white;
+      cursor: pointer;
+      font-family: "fontaine capel jw";
+      font-size: 12px;
+      font-weight: 300;
+      float: left;
+      line-height: 25px;
+      text-align: center;
+      text-transform: uppercase;
+      width: 160px;
+      height: 25px; }
+
+section#content {
+  display: none;
+  margin: 0 auto;
+  width: 800px; }
+  section#content .column {
+    float: left;
+    width: 266px; }
+    section#content .column img {
+      cursor: pointer;
+      float: left;
+      width: 266px; }
+
+#loading-sign {
+  background-image: url("ls.png");
+  margin-top: -25px;
+  margin-left: -25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50px;
+  height: 50px; }
+
+#up-sign {
+  background-image: url("up.png");
+  margin-top: -25px;
+  margin-left: -25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50px;
+  height: 50px; }
+
+#down-sign {
+  background-image: url("down.png");
+  margin-top: -25px;
+  margin-left: -25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50px;
+  height: 50px; }
+
+#lightbox-gloss {
+  background-color: rgba(0, 0, 0, 0.75);
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%; }
+
+#img-lightbox-wrapper {
+  display: none;
+  margin: 0 auto 0 auto;
+  width: 600px; }
+  #img-lightbox-wrapper img {
+    position: absolute;
+    top: 50px;
+    z-index: 4;
+    width: 600px; }
