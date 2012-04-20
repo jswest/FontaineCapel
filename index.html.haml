@@ -6,7 +6,6 @@
     %link{ :rel => "stylesheet", :href => "css/fonts.css", :style => "text/css" }
     %script{ :src => "js/jquery.js", :type => "text/javascript" }
     %script{ :src => "js/coffeescript.js", :type => "text/javascript" }
-    %script{ :src => "js/menu_open.js.coffee", :type => "text/coffeescript" }
     %script{ :src => "js/initial_animation.js.coffee", :type => "text/coffeescript" }
     %script{ :src => "js/nav.js.coffee", :type => "text/coffeescript" }
     %script{ :src => "js/lightbox.js.coffee", :type => "text/coffeescript" }
@@ -19,11 +18,11 @@
       %header#primary-header
         %nav#primary-nav
           %ul
-            %li#installation{ "data-name" => "installation", "data-order" => 0 } Installation
-            %li#performance{ "data-name" => "performance", "data-order" => 1 } Performance
-            %li#studio_process{ "data-name" => "studio_process", "data-order" => 2 } Studio // Process
-            %li#three_dimensions{ "data-name" => "three_dimensions", "data-order" => 3 } Three Dimensions
-            %li#two_dimensions{ "data-name" => "two_dimensions", "data-order" => 4 } Two Dimensions
+            %li#installation{ "data-name" => "installation", "data-order" => 0, "data-num-images" => 16 } Installation
+            %li#performance{ "data-name" => "performance", "data-order" => 1, "data-num-images" => 5 } Performance
+            %li#studio_process{ "data-name" => "studio_process", "data-order" => 2, "data-num-images" => 10 } Studio // Process
+            %li#three_dimensions{ "data-name" => "three_dimensions", "data-order" => 3, "data-num-images" => 6 } Three Dimensions
+            %li#two_dimensions{ "data-name" => "two_dimensions", "data-order" => 4, "data-num-images" => 19 } Two Dimensions
         %hgroup
           %h1#primary-title Fontaine Capel
           %h2#primary-subtitle
